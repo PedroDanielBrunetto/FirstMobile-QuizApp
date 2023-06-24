@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-white min-h-screen
+}
+
+.input-option:checked + label{
+    @apply bg-purple-400 text-white
+}
